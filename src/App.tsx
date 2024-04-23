@@ -47,6 +47,7 @@ function App() {
             placeholder="หมายเลขบัตรเครดิต"
             className="w-full max-w-60 h-12 mt-8 px-4 py-2 rounded-lg text-black border-[#005EB8] focus-visible:outline-[#005EB8] text-center"
             replacement={{ '#': /[0-9]/ }}
+            inputMode="numeric"
             onMask={(e) => {
               setCardNumber(e.detail.input)
             }}
