@@ -1,0 +1,1 @@
+export const UOB_BILLER_ID = '010753500017601'
