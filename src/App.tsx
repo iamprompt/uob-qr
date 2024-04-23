@@ -85,6 +85,18 @@ function App() {
           </div>
         )}
       </div>
+
+      <div className="mt-6 text-center text-sm">
+        Source code available on{' '}
+        <a
+          href="https://github.com/iamprompt/uob-qr"
+          target="_blank"
+          rel="noreferrer"
+          className="text-white underline"
+        >
+          GitHub
+        </a>
+      </div>
     </div>
   )
 }
